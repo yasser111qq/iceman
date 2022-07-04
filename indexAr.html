@@ -1,0 +1,190 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iceman</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&amp;family=Trispace:wght@100;400&amp;display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: rgb(232, 232, 232);
+        z-index: 1;
+        margin: 0;
+      }
+      .header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #060b2200;
+        height: 80px;
+      }
+      .slider {
+        transition: 0.3s ease;
+        text-align: right;
+        font-family: "Open Sans", sans-serif;
+        margin: auto;
+        margin-top: auto;
+        padding-top: 108px;
+        padding-bottom: 100px;
+        margin-top: 40px;
+        width: 80%;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.52);
+        text-align: center;
+        padding-bottom: -20px;
+        margin-bottom: 50px;
+      }
+      .title {
+        opacity: 1;
+
+        font-size: 36px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #323455;
+      }
+      .description {
+        max-width: 500px;
+        color: rgb(70, 70, 70);
+        font-size: 28px;
+        font-family: "Rubik Moonrocks", cursive;
+        font-family: "Trispace", sans-serif;
+        margin: auto;
+        color: rgba(14, 10, 10, 0.87);
+      }
+      .lans,
+      .contacts {
+        width: 390px;
+        margin: auto;
+        display: flex;
+      }
+      .l,
+      .c {
+        width: 80px;
+        height: 35px;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        display: table-cell;
+        margin-left: 5px;
+        margin-right: 5px;
+        color: #090505;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      .maill {
+        animation: mycolores 15s;
+        animation-iteration-count: 111111;
+        filter: invert(23%) sepia(60%) saturate(1274%) hue-rotate(240deg)
+          brightness(89%) contrast(96%);
+      }
+      @keyframes mycolores {
+        0% {
+          filter: invert(23%) sepia(60%) saturate(1274%) hue-rotate(240deg)
+            brightness(89%) contrast(96%);
+        }
+        50% {
+          filter: invert();
+        }
+      }
+      .c {
+        height: 80px;
+        display: flex;
+        background: rgb(236, 236, 236);
+        justify-content: center;
+        align-items: center;
+      }
+      .contacts img {
+        width: 80px;
+        object-fit: contain;
+      }
+      @media only screen and (max-width: 600px) {
+        .lans {
+          width: 350px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img
+        src="https://cdn.glitch.global/233e39d6-471f-4fe0-957a-21fa6381d244/language.png?v=1656905466516"
+        style="
+          margin-top: 10px;
+          margin-left: 20px;
+          width: 50px;
+          cursor: pointer;
+        "
+        onclick="redirectLan()"
+      />
+    </div>
+    <div class="slider">
+      <h1 class="title">Iceman</h1>
+      <h1 class="description">مبرمج متعدد المجالات بخبرة سنيتن</h1>
+      <div style="text-align: center">
+        <img
+          src="images/about.svg"
+          alt=""
+          style="margin-top: 40px; width: 50%; max-width: 340px"
+          draggable="false"
+        />
+      </div>
+      <h1 class="description">
+        ابرمج مواقع سيرفرات برامج كل شيء بالبرمجة تقريباً.
+      </h1>
+      <h1 class="title">اكثر الغات خبرة لدي</h1>
+      <div class="lans">
+        <div class="l">css/html/JS</div>
+        <div class="l">php</div>
+        <div class="l">javascript</div>
+        <div class="l">python</div>
+        <div class="l">c#</div>
+      </div>
+      <h1 class="title">قواعد البيانات الاكثر إستخداماً لدي</h1>
+      <div style="width: 150px" class="lans">
+        <div class="l">SQL</div>
+        <div class="l">Mongodb</div>
+      </div>
+      <h1 class="title">التواصل</h1>
+      <div class="contacts" style="width: 290px">
+        <a href="https://discord.gg/SNNGNHXryt" class="c"
+          ><img
+            class="maill"
+            src="https://cdn.glitch.global/233e39d6-471f-4fe0-957a-21fa6381d244/discord.png?v=1656905466492"
+          /> </a
+        ><a href="https://instagram.com/iam_ice_man" class="c"
+          ><img
+            style="width: 55px"
+            class="maill"
+            src="https://www.pngmart.com/files/13/Instagram-Logo-PNG-High-Quality-Image.png"
+        /></a>
+        <a href="mailto:xyasserksa@gmail.com" class="c"
+          ><img
+            style="width: 60px"
+            class="maill"
+            src="https://cdn-icons-png.flaticon.com/512/115/115757.png"
+            alt=""
+        /></a>
+      </div>
+      <h1 class="title">بعض المواقع اللي عملت عليها</h1>
+      <div style="width: 150px" class="lans">
+        <a href="https://pw-community.com" class="l">pw</a>
+        <a href="https://sahabtfn.com" class="l">sahabtfn</a>
+      </div>
+    </div>
+    <script>
+      const p = window.location.pathname;
+
+      function redirectLan() {
+        if (p == "/" || p == "/en") {
+          window.location.href = "/ar";
+        } else {
+          window.location.href = "/en";
+        }
+      }
+    </script>
+  </body>
+</html>
